@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // https://stackoverflow.com/a/48787136/9599137
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react",
+    "module": "ES6",
+    "target": "ES5"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "coverage",
+    "public"
+  ]
+}
